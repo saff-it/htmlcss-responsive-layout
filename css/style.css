@@ -32,7 +32,13 @@ a{
     text-decoration: none;
 }
 
+p{
+    line-height: 30px;
+}
 
+.violet{
+    background-color: #9593E6;
+}
 
 /*************************************************
     HEADER
@@ -133,7 +139,7 @@ div.box-img img{
     font-weight: bold;
     color: rgb(83, 81, 81);
     margin: 20px 0;
-    line-height: 30px;
+    
 }
 
 .txt-btn-cont a, i{
@@ -162,9 +168,6 @@ div.box-img img{
 
 
 /* 2 columns section  */
-section.violet{
-    background-color: #9593E6;
-}
 
 div.left-col-img{
     margin: 80px 0;
@@ -184,12 +187,10 @@ div.left-col-txt h2{
 }
 
 div.left-col-txt p{
-    
-    line-height: 30px;
     margin: 60px 0 30px 0 ;
 }
 
-
+/* ---  */
 
 .rght-col{
     text-align: center;
@@ -198,7 +199,6 @@ div.left-col-txt p{
     margin-bottom: 60px;
 }
 
-
 div.rght-col-img img{
     width: 80%;
     margin: 30px 0 20px 0; 
@@ -206,7 +206,6 @@ div.rght-col-img img{
 
 div.rght-col-txt p{
     width: 80%;
-    line-height: 30px;
     margin: 30px auto;
 }
 
@@ -217,12 +216,53 @@ div.rght-col-txt i{
     padding: 15px;
     border-radius: 50%;
     margin-bottom: 30px;
-
 }
 
 
 /* testimonial section  */
 
+div.test-text, div.test-pic{
+    text-align: center;
+    
+
+}
+
+div.test-text h2{
+    color: #9593E6;
+    font-size: 40px;
+    margin: 30px 0;
+    line-height: 40px;
+}
+
+div.test-text p{
+    
+}
+
+/* --- */
+
+div.test-pic{
+    margin: 25px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+div.test-pic-img img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+div.test-pic-img-txt p{
+    color: white;
+    margin: 25px 0;
+}
+
+div.test-pic-img-txt span{
+    color: white;
+    font-weight: bold;
+}
 
 
 
