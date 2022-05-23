@@ -33,6 +33,7 @@ a{
 
 p{
     line-height: 30px;
+    
 }
 
 .violet{
@@ -297,6 +298,69 @@ div.box-single button{
     margin: 15px 0;
     background-color: #9593E6;
     color: white;
+}
+
+div.box-elements{
+    margin-bottom: 25px;
+}
+
+
+
+/* about us section  */
+div.ab-us-txt h2{
+    color: #9593E6;
+    margin: 40px 0;
+
+}
+
+div.ab-us-txt p{
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+div.ab-us-img{
+    width: 60%;
+    position: relative;
+}
+
+div.ab-us-img img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+div.ab-us-img i{
+    font-size: 70px;
+    color: #9593E6;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ab-us-pic p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #9593E6;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.ab-us-pic button{
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 15px 0;
+    background-color: #9593E6;
+    color: white;
+    
+}
+
+.ab-us-pic button i{
+    color: white;
+    margin: 0 10px;
+    
+    
 }
 
 
