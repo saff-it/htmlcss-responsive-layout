@@ -21,12 +21,8 @@ body{
 
  .container{
     width: 100%;
-}
-
-.container.big-scrn{
-    max-width: 850px;
-    margin: 0 auto;
-}
+ }   
+  
 
 .d-flex{
     display: flex;
@@ -46,14 +42,11 @@ header{
 .navigator li{
     display: none;
     list-style: none;
-    
-    
 }
 
 .navigator.d-flex ul{
     align-items: center;
     padding: 15px 25px;
-
 }
 
 .navigator a{
@@ -86,7 +79,7 @@ div.navigator i{
 }
 
 .logo-img img{
-    min-width: 40%;
+    height: 25%;
     padding: 15px 25px;
 }
 
@@ -97,6 +90,27 @@ div.navigator i{
     border-radius: 15px;
     padding: 5px 10px;
 }
+
+
+/*************************************************
+    MAIN
+ *************************************************/
+ .container.d-flex.med-scrn{
+    max-width: 90%;
+    margin: 60px auto;
+    flex-direction: column;
+   
+}
+
+div.box{
+    border-radius: 25px;
+    background-color: rgb(108, 191, 247);
+    width: 100%;
+    margin-bottom: 30px;
+    height: 150px;
+    
+}
+
 
 
 
@@ -126,12 +140,21 @@ div.navigator i{
  }
 
 @media screen and (min-width: 992px) {
+    .container.big-scrn{
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    
     .navigator li{
         display: inline-block;
     }
 
     div.navigator i{
         display: none;
+    }
+
+    .logo-img img{
+        transform: scale(0.7);
     }
 }
 
