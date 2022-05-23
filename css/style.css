@@ -1,7 +1,6 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +38,12 @@ p{
 .violet{
     background-color: #9593E6;
 }
+
+h2{
+    font-size: 40px;
+}
+
+
 
 /*************************************************
     HEADER
@@ -103,14 +108,12 @@ div.navigator i{
     MAIN
  *************************************************/
  
-
  /* 5 card section  */
  
  .container.d-flex.med-scrn{
     max-width: 80%;
     margin: 60px auto;
     flex-direction: column;
-   
 }
 
 div.box{
@@ -118,7 +121,6 @@ div.box{
     background-color: rgb(108, 191, 247);
     width: 100%;
     margin-bottom: 30px;
-   
 }
 
 div.txt-btn-cont, div.box-img{
@@ -139,7 +141,6 @@ div.box-img img{
     font-weight: bold;
     color: rgb(83, 81, 81);
     margin: 20px 0;
-    
 }
 
 .txt-btn-cont a, i{
@@ -180,10 +181,6 @@ div.left-col-img img{
 div.left-col-txt{
     color: white;
 
-}
-
-div.left-col-txt h2{
-    font-size: 40px;
 }
 
 div.left-col-txt p{
@@ -229,7 +226,6 @@ div.test-text, div.test-pic{
 
 div.test-text h2{
     color: #9593E6;
-    font-size: 40px;
     margin: 30px 0;
     line-height: 40px;
 }
@@ -241,7 +237,7 @@ div.test-text p{
 /* --- */
 
 div.test-pic{
-    margin: 25px;
+    margin-top: 50px;
     border-radius: 40px;
     padding: 20px;
 }
@@ -265,6 +261,43 @@ div.test-pic-img-txt span{
 }
 
 
+/* section 6 boxes  */
+
+div.boxes-title h2{
+    color: white;
+    text-align: center;
+    margin: 60px 0;
+}
+
+div.box-single{
+    background-color: white;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 25px 0;
+}
+
+div.box-single span{
+    color: #9593E6;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+div.box-single h3{
+    color: #9593E6;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+div.box-single button{
+    border: 0;
+    border-radius: 20px;
+    padding: 15px 65px;
+    font-size: 16px;
+    margin: 15px 0;
+    background-color: #9593E6;
+    color: white;
+}
 
 
 
