@@ -15,8 +15,17 @@
 /*************************************************
     COMMON RULES
  *************************************************/
-.container{
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .container{
     width: 100%;
+}
+
+.container.big-scrn{
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .d-flex{
@@ -27,22 +36,39 @@
 
 
 
-
 /*************************************************
     HEADER
  *************************************************/
+header{
+    background-color: rgba(4, 90, 252, 0.897);
+}
 
 .navigator li{
     display: none;
+    list-style: none;
+    
+    
+}
+
+.navigator.d-flex ul{
+    align-items: center;
+    padding: 15px 25px;
+
+}
+
+.navigator a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 0 10px;
 }
 
 .container.d-flex{
     align-items: center;
-    background-color: rgba(4, 90, 252, 0.897);
 }
 
 div.navigator.d-flex{
-    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 div.navigator i{
@@ -51,16 +77,26 @@ div.navigator i{
     font-size: 24px;
 }
 
-.logo-img, .navigator{
-    width: 50%;
+.logo-img{
+    width: 30%;
+}
+
+.navigator{
+    width: 70%;
 }
 
 .logo-img img{
-    height: 50%;
+    min-width: 40%;
     padding: 15px 25px;
 }
 
-
+.navigator.d-flex ul li:last-child a{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
 
 
 
@@ -90,8 +126,12 @@ div.navigator i{
  }
 
 @media screen and (min-width: 992px) {
-    .navigator ul{
-        display: block;
+    .navigator li{
+        display: inline-block;
+    }
+
+    div.navigator i{
+        display: none;
     }
 }
 
