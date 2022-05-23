@@ -12,21 +12,53 @@
 
 
 
+/*************************************************
+    COMMON RULES
+ *************************************************/
+.container{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
 
 
 
 
 
 
+/*************************************************
+    HEADER
+ *************************************************/
 
+.navigator li{
+    display: none;
+}
 
+.container.d-flex{
+    align-items: center;
+    background-color: rgba(4, 90, 252, 0.897);
+}
 
+div.navigator.d-flex{
+    flex-direction: row-reverse;
+}
 
+div.navigator i{
+    padding: 15px 25px;
+    color: white;
+    font-size: 24px;
+}
 
+.logo-img, .navigator{
+    width: 50%;
+}
 
-
-
-
+.logo-img img{
+    height: 50%;
+    padding: 15px 25px;
+}
 
 
 
@@ -42,11 +74,24 @@
 /*************************************************
     RESPONSIVE
  *************************************************/
+
+ /* FINO a
+ @media screen and (max-width: 479px) {
+     
+ }
+
+ A PARTIRE DA
+ @media screen and (min-width: 479px) {
+     
+ } */
+
 @media screen and (min-width: 768px) {
     
  }
 
 @media screen and (min-width: 992px) {
-    
+    .navigator ul{
+        display: block;
+    }
 }
 
