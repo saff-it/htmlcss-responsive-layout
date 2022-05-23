@@ -28,7 +28,9 @@ body{
     display: flex;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 
@@ -50,7 +52,6 @@ header{
 }
 
 .navigator a{
-    text-decoration: none;
     color: white;
     font-size: 12px;
     margin: 0 10px;
@@ -95,8 +96,12 @@ div.navigator i{
 /*************************************************
     MAIN
  *************************************************/
+ 
+
+ /* 5 card section  */
+ 
  .container.d-flex.med-scrn{
-    max-width: 90%;
+    max-width: 80%;
     margin: 60px auto;
     flex-direction: column;
    
@@ -107,16 +112,55 @@ div.box{
     background-color: rgb(108, 191, 247);
     width: 100%;
     margin-bottom: 30px;
-    height: 150px;
-    
+   
 }
 
+div.txt-btn-cont, div.box-img{
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+div.box-img img{
+    width: 100%;
+}
+
+.txt-btn-cont h3{
+    color: rgba(4, 90, 252, 0.897);
+    font-size: 1.5rem;
+}
+
+.txt-btn-cont p{
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.txt-btn-cont a, i{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+}
+
+.txt-btn-cont button{
+    background-color: rgba(4, 90, 252, 0.897);
+    border-radius: 25px;
+    border: 0;
+    width: 80%;
+    padding: 14px 0;
+}
+
+.txt-btn-cont .card-content{
+    text-align: center;
+}
+
+.txt-btn-cont .card-content i{
+    color: rgba(4, 90, 252, 0.897);
+    font-size: 90px;
+    margin-bottom: 25px;
 
 
-
-
-
-
+}
 
 
 
