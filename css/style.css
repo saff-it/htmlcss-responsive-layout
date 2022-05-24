@@ -363,11 +363,13 @@ div.ab-us-img i{
 
 
 /* get started section  */
+
 .container.sml-screen{
     max-width: 680px;
     flex-direction: column;
-    margin-bottom: -30px;
     text-align: center;
+    justify-content: center;
+    margin: 0 auto -30px auto;
 }
 
 .container.sml-screen span:first-child{
