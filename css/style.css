@@ -18,6 +18,9 @@ body{
  *************************************************/
  .container{
     width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+
  }   
   
 
@@ -42,6 +45,14 @@ h2{
     font-size: 40px;
 }
 
+.container.d-flex{
+    padding: 20px 30px;
+}
+
+   
+.d-wrap{
+    flex-wrap: wrap;
+}
 
 
 /*************************************************
@@ -69,6 +80,10 @@ header{
 
 .container.d-flex{
     align-items: center;
+}
+
+.container.head-scrn{
+    flex-direction: row;
 }
 
 div.navigator.d-flex{
@@ -109,10 +124,10 @@ div.navigator i{
  
  /* 5 card section  */
  
- .container.d-flex.med-scrn{
-    max-width: 80%;
+ .container.med-scrn{
     margin: 60px auto;
     flex-direction: column;
+    
 }
 
 div.box{
@@ -397,6 +412,9 @@ div.ab-us-img i{
 .container.sml-screen span:last-child{
     color: white;
     margin-bottom: 50px;
+    font-size: 14px;
+    max-width: 80%;
+
 }
 
 .container.sml-screen button{
@@ -449,9 +467,6 @@ footer p{
 
 
 
-
-
-
 /*************************************************
     RESPONSIVE
  *************************************************/
@@ -467,13 +482,33 @@ footer p{
  } */
 
 @media screen and (min-width: 768px) {
-    
+    .container{
+        max-width: 800px;
+    }
+
+    .container.d-flex.med-scrn{
+        flex-direction: row;
+    }
+
+    div.demo.box{
+        width: calc(66.666%);
+    }    
+
+    div.box{
+        width: calc(33.333%);
+
+    }
+
+
  }
 
+
+
+
 @media screen and (min-width: 992px) {
-    .container.big-scrn{
+    .container{
         max-width: 900px;
-        margin: 0 auto;
+        
     }
     
     .navigator li{
