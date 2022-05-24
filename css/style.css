@@ -513,6 +513,13 @@ footer p{
 
     }
 
+    div.box-img {
+        max-width: 60%;
+        margin: 25px 0 0 0;
+        
+    }
+
+
     /* testimonial section  */
     .test-pic{
         display: flex;
@@ -603,6 +610,11 @@ footer p{
         padding: 0 15px;
         
     }
+
+    div.box-img {
+        align-self: flex-end;
+    }
+
 
     /* 2columns  */
 
