@@ -78,7 +78,7 @@ header{
     margin: 0 10px;
 }
 
-.container.d-flex{
+.container.head-scrn{
     align-items: center;
 }
 
@@ -138,8 +138,8 @@ div.box{
 }
 
 div.txt-btn-cont, div.box-img{
-    width: 80%;
     margin: 30px auto 0 auto;
+    padding: 0 30px;
 }
 
 div.box-img img{
@@ -211,12 +211,12 @@ div.left-col-txt p{
 }
 
 div.rght-col-img img{
-    width: 80%;
+    width: 100%;
     margin: 30px 0 20px 0; 
 }
 
 div.rght-col-txt p{
-    width: 80%;
+    width: 100%;
     margin: 30px auto;
 }
 
@@ -491,11 +491,12 @@ footer p{
     }
 
     div.demo.box{
-        width: calc(66.666%);
+        width: calc(66% - 16px);
     }    
 
     div.box{
-        width: calc(33.333%);
+        width: calc(33% - 16px);
+        margin: 8px 8px;
 
     }
 
@@ -522,5 +523,35 @@ footer p{
     .logo-img img{
         transform: scale(0.7);
     }
+
+
+    /* 5cards  */
+    div.demo.box{
+        display: flex;
+    } 
+
+    .txt-btn-cont{
+        margin: 0;
+        padding: 0 15px;
+        
+    }
+
+    /* 2columns  */
+
+    div.rght-col{
+        align-self: flex-end;
+        padding: 0 50px;
+        margin: 0 30px
+    }
+
+    .rght-col-txt h2{
+        font-size: 20px;
+    }
+
+    .container.betwe-scrn{
+        justify-content: space-between;
+
+    }
+
 }
 
