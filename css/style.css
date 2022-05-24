@@ -54,6 +54,11 @@ h2{
     flex-wrap: wrap;
 }
 
+.container.b-row{
+    flex-direction: row;
+}
+
+
 
 /*************************************************
     HEADER
@@ -512,6 +517,16 @@ footer p{
     }
 
 
+
+    /* 6 boxes  */
+    .box-elements{
+        margin: 10px;
+        width: calc(50% - 20px);
+    }
+
+    .boxes-title{
+        margin: 0 auto;
+    }
  }
 
 
@@ -559,10 +574,11 @@ footer p{
         font-size: 20px;
     }
 
-
-    .container.b-side{
-        flex-direction: row;
+    /* 6 boxes  */
+    .box-elements{
+        margin: 10px;
+        width: calc(33.33% - 20px);
     }
-
+   
 }
 
