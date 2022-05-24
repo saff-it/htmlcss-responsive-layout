@@ -411,7 +411,7 @@ div.ab-us-img i{
 .container.sml-screen p{
     max-width: 80%;
     color: white;
-    margin: 35px 0;
+    margin: 35px auto;
 }
 
 .container.sml-screen span:last-child{
@@ -419,6 +419,7 @@ div.ab-us-img i{
     margin-bottom: 50px;
     font-size: 14px;
     max-width: 80%;
+    margin: 0 auto;
 
 }
 
@@ -428,9 +429,10 @@ div.ab-us-img i{
     padding: 20px 75px;
     font-size: 18px;
     font-weight: bold;
-    margin: 20px 0 35px 0;
+    margin: 20px auto 35px auto;
     background-color: white;
     color: #9593E6;
+    max-width: 265px;
 }
 
 
@@ -533,6 +535,40 @@ footer p{
     .boxes-title{
         margin: 0 auto;
     }
+
+
+    /* about us  */
+
+    .ab-us-txt{
+        width: 60%;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .ab-us-pic{
+        width: 30%;
+
+    }
+
+    .ab-us-pic p{
+        font-size: 20px;
+    }
+
+    .sp-col{
+        justify-content: space-between;
+    }
+
+    .ab-us-pic button, i{
+        font-size: 14px;
+    }
+
+    div.ab-us-img i{
+        font-size: 45px;
+        
+    }
+
+
+
  }
 
 
@@ -582,6 +618,7 @@ footer p{
 
     .container.two-col{
         flex-direction: row;
+        justify-content: space-between;
     }
 
 
